@@ -42,15 +42,16 @@ public:
 	}
 };
 
-int main()
-{
-	static_vector<std::string, 1> v1;
-	constexpr auto size = sizeof(v1);
-	constexpr auto size1 = sizeof(std::string);
-
-	v1.emplace_back(5, '*');
-	v1.emplace_back(10, '*');
-	std::cout << v1[0] << '\n' << v1[1] << '\n';
-
-	system("pause");
-}
+//int main()
+//{
+//	static_vector<std::string, 5> v1;
+//	constexpr auto size = sizeof(v1);
+//	constexpr auto size1 = sizeof(std::string);
+//
+//	v1.emplace_back(5, '*');
+//	v1.emplace_back(10, '*');
+//	std::cout << v1[0] << '\n' << v1[1] << '\n';
+//
+//	system("pause");
+//	return 0;
+//}

@@ -32,5 +32,8 @@
     <ClCompile Include="aligned.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="align.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
